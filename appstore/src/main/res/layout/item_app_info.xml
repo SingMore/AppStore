@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/selector_item_appinfo_bg"
+    android:orientation="vertical"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp">
+
+    <!-- 图片标题下载区域 -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="75dp">
+
+        <!-- 图标 -->
+        <ImageView
+            android:id="@+id/iv_item_appicon"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:src="@mipmap/ic_default"
+            android:layout_alignParentLeft="true"/>
+
+        <!-- 下载部分 -->
+        <com.example.appstore.views.CircleProgressView
+            android:id="@+id/cpv_item"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:gravity="center">
+
+        </com.example.appstore.views.CircleProgressView>
+
+        <!-- 信息部分 -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/iv_item_appicon"
+            android:layout_toLeftOf="@id/cpv_item"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <!-- 应用名称 -->
+            <TextView
+                android:id="@+id/tv_item_appname"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="应用名字"
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+
+            <!-- 应用的大小和下载量 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_item_appsize"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="应用大小"
+                    android:textColor="@android:color/darker_gray"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tv_item_appdownloadnum"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:text="应用下载量"
+                    android:textColor="@android:color/darker_gray"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+            <!-- 应用评分 -->
+            <RatingBar
+                android:id="@+id/rb_item_appstars"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:isIndicator="true"
+                android:progressDrawable="@drawable/layerlist_ratingbar"
+                android:rating="3.5" />
+
+        </LinearLayout>
+
+
+
+
+    </RelativeLayout>
+
+    <!-- 分割线 -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/item_divider" />
+
+    <!-- 描述部分 -->
+    <TextView
+        android:id="@+id/tv_item_appdes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginRight="14dp"
+        android:layout_marginTop="5dp"
+        android:ellipsize="end"
+        android:lines="1"
+        android:text="产品介绍：有缘是时下最受大众单身男女亲睐的婚恋交友软件。有缘网专注于通过轻松、；连接"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="14sp" />
+</LinearLayout>
+
+

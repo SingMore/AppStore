@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">AppStore</string>
+
+    <!--主页标题数组-->
+    <string-array name="main_titles">
+        <item>首页</item>
+        <item>排行</item>
+        <item>应用</item>
+        <item>游戏</item>
+        <item>推荐</item>
+        <item>我的</item>
+    </string-array>
+
+    <!-- 应用详情 -->
+    <string name="detail_downloadnum">下载: %1$s</string>
+    <string name="detail_version">版本: %1$s</string>
+    <string name="detail_date">时间: %1$s</string>
+    <string name="detail_size">大小: %1$s</string>
+
+</resources>

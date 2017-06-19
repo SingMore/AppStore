@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="E:\AndroidStudioProjects\MyWork\appstore\libs\org.apache.http.legacy.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5320fd78dd7f154e586970d4f02befc9b58432aa">
+        <dex dex="E:\AndroidStudioProjects\MyWork\appstore\build\intermediates\transforms\dex\debug\folders\1000\2\org.apache.http.legacy_f4dc1fc1982cefdeaf9502698cd9c29c11867a3f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\AndroidStudioProjects\MyWork\appstore\libs\rxandroid-1.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="927e8ef5711b115b65b2f35495d77352be2b3c09">
+        <dex dex="E:\AndroidStudioProjects\MyWork\appstore\build\intermediates\transforms\dex\debug\folders\1000\2\rxandroid-1.2.0_c24af7364aa6a223075ca0731d9a25e49fb00a7b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\AndroidStudioProjects\MyWork\appstore\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="161cd02e198cbf6de44979083e4bb399eed74d36">
+        <dex dex="E:\AndroidStudioProjects\MyWork\appstore\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_c62eb813ed530b8936587aa17d6be04c23faa746\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\AndroidStudioProjects\MyWork\appstore\libs\turinghttp_1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="985007997833af11c4f2faa5a79df2064373db5e">
+        <dex dex="E:\AndroidStudioProjects\MyWork\appstore\build\intermediates\transforms\dex\debug\folders\1000\2\turinghttp_1.0_7a7c597517c9314e2520a089cd2c24e0234f3edd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\AndroidStudioProjects\MyWork\appstore\libs\Sunflower.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b95e714e17e0f07c02327356fd4fbbb5908f7d50">
+        <dex dex="E:\AndroidStudioProjects\MyWork\appstore\build\intermediates\transforms\dex\debug\folders\1000\2\Sunflower_b6208e974bc6c8bb5be05be32b25afca27f86227\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\AndroidStudioProjects\MyWork\appstore\libs\xUtils-2.6.14.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f10c51f3e0732fdeefe6e104279a58e275879b6c">
+        <dex dex="E:\AndroidStudioProjects\MyWork\appstore\build\intermediates\transforms\dex\debug\folders\1000\2\xUtils-2.6.14_f0d18a2fa35c37afe803211411b0c884378e9306\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\AndroidStudioProjects\MyWork\appstore\libs\okio-1.7.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1dc44f4cec20a64cebb68b90b4218f82ac7948b1">
+        <dex dex="E:\AndroidStudioProjects\MyWork\appstore\build\intermediates\transforms\dex\debug\folders\1000\2\okio-1.7.0_2a4a0c62527133b6f7b61fb420a17bc0138edf85\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\AndroidStudioProjects\MyWork\appstore\libs\tulingSDK1.4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7788283937b116bd3ed1df2aa8f356a3fbece2ec">
+        <dex dex="E:\AndroidStudioProjects\MyWork\appstore\build\intermediates\transforms\dex\debug\folders\1000\2\tulingSDK1.4_2257821c7d86c322adb1c36f014a22aef46b0d46\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\AndroidStudioProjects\MyWork\appstore\libs\okhttp-3.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="19047bdb6a4fc00a44124f64ca98e88fc204e7e3">
+        <dex dex="E:\AndroidStudioProjects\MyWork\appstore\build\intermediates\transforms\dex\debug\folders\1000\2\okhttp-3.3.1_8ece59ef5f8f7edb508ae9a7433db6f976b2d65f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\AndroidStudioProjects\MyWork\appstore\libs\BmobSDK_3.5.3_20161116.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7dd0893cb2b1d2e4249ce6a10934e3cba2d57d0f">
+        <dex dex="E:\AndroidStudioProjects\MyWork\appstore\build\intermediates\transforms\dex\debug\folders\1000\2\BmobSDK_3.5.3_20161116_4a4bdb140afe9506e4c2fc976e66324dd6660b77\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\AndroidStudioProjects\MyWork\appstore\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="E:\AndroidStudioProjects\MyWork\appstore\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_6557f5264bf747a4e436c2284ad7195b2f91982b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\AndroidStudioProjects\MyWork\appstore\libs\volley.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f571127a905f0b03d812f1eec5e8e4995b6c7280">
+        <dex dex="E:\AndroidStudioProjects\MyWork\appstore\build\intermediates\transforms\dex\debug\folders\1000\2\volley_211a2a0068761ca3365af1302fcdaaa3aa86c807\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\AndroidStudioProjects\MyWork\appstore\libs\gson-2.6.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f1bc476cc167b18e66c297df599b2377131a8947">
+        <dex dex="E:\AndroidStudioProjects\MyWork\appstore\build\intermediates\transforms\dex\debug\folders\1000\2\gson-2.6.2_49469442943b365c7947bc7bcf77fd4371882488\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\AndroidStudioProjects\MyWork\appstore\libs\rxjava-1.1.6.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2586312cd2b8a511e4c6236736f5a039fc0f2273">
+        <dex dex="E:\AndroidStudioProjects\MyWork\appstore\build\intermediates\transforms\dex\debug\folders\1000\2\rxjava-1.1.6_173dcaef7a7ede58c5a3e34e9432c661adb1f4bd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\AndroidStudioProjects\MyWork\appstore\libs\Msc.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4f11330834f00ecbf76acef91a5e3be24b99f9fd">
+        <dex dex="E:\AndroidStudioProjects\MyWork\appstore\build\intermediates\transforms\dex\debug\folders\1000\2\Msc_8b690d977c802f9c64b4d9e55d1cccf78ec47fc5\classes.dex" />
+    </item>
+
+</items>

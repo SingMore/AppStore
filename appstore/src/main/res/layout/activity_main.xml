@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rl_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--搜索框-->
+    <include layout="@layout/search_bar"></include>
+
+    <!--Tab条-->
+    <com.astuetz.PagerSlidingTabStripExtends
+        android:id="@+id/psts_main"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        custom:pstsDividerColor="@color/item_divider"
+        custom:pstsIndicatorColor="@color/tab_indicator_selected"
+        custom:pstsSelectedTabTextColor="@color/tab_text_selected"
+        custom:pstsSelectedTabTextSize="@dimen/tab_text_selected_size"
+        custom:pstsTabTextColor="@color/tab_text_normal"
+        custom:pstsTabTextSize="@dimen/tab_text_normal_size">
+
+    </com.astuetz.PagerSlidingTabStripExtends>
+
+    <!--Tab条下面的ViewPager-->
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v4.view.ViewPager>
+
+</LinearLayout>
+
+
+

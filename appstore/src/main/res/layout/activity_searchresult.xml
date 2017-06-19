@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/ll_searchresult"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <TextView
+            style="@style/TitleStyle"
+            android:text="搜索结果"/>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_searchresult"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            style="@style/TitleStyle"
+            android:text="搜索结果"/>
+
+        <ProgressBar
+            android:id="@+id/pb_searchresult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true" />
+
+        <Button
+            android:id="@+id/bt_refresh_search"
+            android:layout_width="wrap_content"
+            android:layout_height="34dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/selector_btn_bg"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="刷新试试"
+            android:textColor="#ff717171"
+            android:textSize="12sp"
+            android:layout_below="@id/pb_searchresult"
+            android:layout_centerHorizontal="true"/>
+
+    </RelativeLayout>
+
+</FrameLayout>
